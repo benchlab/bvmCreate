@@ -1,0 +1,11 @@
+name = "Machine Name"
+author = "Author Name"
+
+spec("ADD", "0x01"){
+    validate = 2
+    oxygen = 20
+}
+
+spec("PUSH", "0x02"){
+    oxygen = 10
+}

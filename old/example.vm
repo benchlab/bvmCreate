@@ -1,0 +1,24 @@
+name = "Example"
+author = "Alex"
+description = "A toy BVM."
+
+spec("ADD", "01"){
+    description = "Finds the sum of two numbers."
+    oxygen = 100
+}
+
+category("Pushers"){
+
+    description = "Things which push"
+
+    spec("PUSH", "02"){
+        description = "Pushes a number onto the stack."
+        oxygen = 10
+    }
+
+    spec("TEST", "03"){
+        description = "Test spec."
+        oxygen = 30
+    }
+
+}
